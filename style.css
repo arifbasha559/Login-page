@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bga {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    /* z-index: -1; */
+}
+
+.cir1 {
+    /* position: fixed; */
+    margin-top: 320px;
+    margin-left: -320px;
+    width: 720px;
+    height: 720px;
+    border-radius: 100%;
+    background-color: #264ECA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cir2 {
+    width: 572px;
+    height: 572px;
+    border-radius: 100%;
+    background-color: #244BC5;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cir3 {
+    width: 438px;
+    height: 438px;
+    border-radius: 100%;
+    background-color: #274FC7;
+    /* margin: auto; */
+}
+.vector{
+    position: fixed;
+    top: -10px;
+    right: -100px;
+}
+.bg{
+
+    background: #2148C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    gap: 10px;   
+}
+.input{
+    color: white;
+    background-color: #2148C0;
+    width: 290px;
+    height: 45px;
+    outline: 1px solid white;
+    border-radius: 7px;
+    display: flex;
+    padding: 0 5px;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    border: 0px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 300px;
+    height: 45px;
+}
+.logo{
+    margin-bottom: 50px;
+}
